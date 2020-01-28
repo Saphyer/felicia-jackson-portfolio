@@ -115,7 +115,7 @@ a {
 
 /* Styles for Projects in the homepage */
 .projects {
-  padding: 100px 0 200px 0;
+  padding: 100px 0;
 }
 
 .projects-title {
@@ -240,4 +240,67 @@ a {
 
 .project.right-aligned .project-image-container {
   margin-left: 100px;
+}
+
+/* Styles for the footer */
+.footer-cta-container {
+  background-color: #2d3152;
+  display: flex;
+  align-items: center;
+  padding: 40px 100px;
+}
+
+.footer-cta-title {
+  color: #ffffff;
+  font-family: "Muli", sans-serif;
+  font-size: 26px;
+  flex: 1;
+}
+
+.footer-cta {
+  margin-left: 150px;
+  background-color: #cda74e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 370px;
+  text-align: center;
+  padding: 32px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.footer-cta:hover {
+  opacity: 0.8;
+}
+
+.footer-copyright-container {
+  display: flex;
+  align-items: center;
+  margin: 8px 100px;
+}
+
+.footer-copyright-text {
+  color: #2d3152;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  flex: 1;
+}
+
+.social-networks-list {
+  display: flex;
+}
+
+.social-network {
+  margin-right: 68px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-network:hover {
+  opacity: 0.8;
+}
+
+.social-network:last-child {
+  margin-right: 0;
 }
