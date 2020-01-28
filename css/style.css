@@ -1,5 +1,5 @@
 /* This is the font we imported from Google */
-@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:400|Raleway:400,600|Poppins:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:300,400|Raleway:400,600|Poppins:300,500&display=swap");
 
 /* General styles for elements throughout the entire site */
 a {
@@ -111,4 +111,133 @@ a {
 
 .hero-button:hover {
   opacity: 0.8;
+}
+
+/* Styles for Projects in the homepage */
+.projects {
+  padding: 100px 0 200px 0;
+}
+
+.projects-title {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #2d3152;
+}
+
+.projects-list {
+  margin-top: 60px;
+}
+
+.project {
+  background-image: url("../img/backgrounds/border.png");
+  background-repeat: no-repeat;
+  margin-bottom: 125px;
+}
+
+.project-title-container {
+  padding: 40px 0 80px 0;
+  display: flex;
+}
+
+.project-title {
+  padding: 24px 100px;
+  background-color: #2d3852;
+  max-width: 445px;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.project-content-container {
+  display: flex;
+}
+
+.project-text-container {
+  background: #7d93a5;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 80px 55px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.project-description {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 20px;
+}
+
+.project-text {
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.project-button {
+  display: block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 32px;
+  border: 3px solid #ffffff;
+  text-align: center;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 26px;
+  align-self: flex-end;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-button:hover {
+  opacity: 0.8;
+}
+
+.project-image-container {
+  flex: 2;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+
+.project-image-container img {
+  display: block;
+  width: 100%;
+}
+
+/* Specific adjustments based on the project alignment */
+.project.left-aligned {
+  margin-right: 70px;
+  background-position: top right;
+}
+
+.project.left-aligned .project-content-container {
+  margin-left: 100px;
+}
+
+.project.left-aligned .project-image-container {
+  margin-right: 100px;
+}
+
+.project.right-aligned {
+  margin-left: 70px;
+  background-position: top left;
+}
+
+.project.right-aligned .project-title-container {
+  justify-content: flex-end;
+}
+
+.project.right-aligned .project-content-container {
+  margin-right: 100px;
+}
+
+.project.right-aligned .project-image-container {
+  margin-left: 100px;
 }
