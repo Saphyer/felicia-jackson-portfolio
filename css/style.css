@@ -1,0 +1,72 @@
+/* This is the font we imported from Google */
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+/* With this rule, we apply the font to all the text on the website */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Muli", sans-serif;
+}
+
+/* General styles for elements throughout the entire site */
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styles for the header */
+.main-header {
+  background-color: #2d3152;
+  border-bottom: 8px solid #cda74e;
+  padding: 20px 90px;
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the logo container */
+.logo-container {
+  flex: 1;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 24px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+/* Styles for the top navigation */
+.top-navigation-list {
+  display: flex;
+}
+
+.top-navigation-list li {
+  margin-right: 100px;
+}
+
+.top-navigation-list li:last-child {
+  margin-right: 0;
+}
+
+.top-navigation-link {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.top-navigation-link:hover {
+  opacity: 0.8;
+}
