@@ -473,6 +473,10 @@ a {
   line-height: 140%;
 }
 
+.project-text strong {
+  font-weight: 700;
+}
+
 .section-text {
   max-width: 910px;
   margin-bottom: 45px;
@@ -557,6 +561,10 @@ a {
 }
 
 /* Styles for the User Survey */
+.survey-findings {
+  margin-left: 80px;
+}
+
 .survey-findings li {
   line-height: 160%;
 }
@@ -571,7 +579,7 @@ a {
 
 /* Styles for the Personas */
 .personas {
-  max-width: 910px;
+  max-width: 1160px;
   margin: auto;
 }
 
@@ -612,4 +620,23 @@ a {
 
 .personas-button {
   margin: auto;
+}
+
+.stories {
+  max-width: 910px;
+}
+
+.story {
+  padding: 12px 15px;
+}
+
+.stories-button {
+  margin: auto;
+  margin-top: 110px;
+}
+
+/* Change the background color of the odd stories */
+.story:nth-child(odd) {
+  background-color: #2d3152;
+  color: #ffffff;
 }
