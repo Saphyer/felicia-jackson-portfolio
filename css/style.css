@@ -109,8 +109,7 @@ a {
   text-align: center;
 }
 
-.hero-button {
-  margin-top: 80px;
+.button {
   background-color: #cda74e;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   max-width: 350px;
@@ -120,7 +119,12 @@ a {
   color: #ffffff;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  display: block;
+}
+
+.hero-button {
+  margin-top: 80px;
 }
 
 .hero-button:hover {
@@ -195,12 +199,8 @@ a {
   margin-bottom: 20px;
 }
 
-.project-text {
-  font-family: "Muli", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 140%;
-  color: #ffffff;
+.homepage-project-text {
+  color: #ffffff !important;
 }
 
 .project-button {
@@ -282,16 +282,6 @@ a {
 
 .footer-cta {
   margin-left: 150px;
-  background-color: #cda74e;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  max-width: 370px;
-  text-align: center;
-  padding: 32px;
-  width: 100%;
-  color: #ffffff;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 
 .footer-cta:hover {
@@ -427,19 +417,9 @@ a {
 }
 
 .contact-cta {
-  background-color: #cda74e;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  max-width: 350px;
-  text-align: center;
-  padding: 32px;
-  width: 100%;
-  color: #ffffff;
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
   border: none;
   margin: auto;
   transition: all 0.3s ease-in-out;
-  font-weight: 400;
 }
 
 .contact-cta:hover {
@@ -485,13 +465,21 @@ a {
   margin-bottom: 30px;
 }
 
-.section-text {
+.project-text {
   font-family: "Muli", sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: #2d3152;
   line-height: 140%;
+}
+
+.section-text {
   max-width: 910px;
+  margin-bottom: 45px;
+}
+
+.section-text strong {
+  font-weight: 700;
 }
 
 /* Styles for Roles, Deliverables, Tools */
@@ -510,8 +498,6 @@ a {
 
 .table-title {
   font-weight: 600;
-  font-family: "Muli", sans-serif;
-  color: #2d3152;
 }
 
 .table-container {
@@ -521,14 +507,6 @@ a {
 .table-items {
   margin-top: 20px;
   flex: 1;
-}
-
-.table-items li {
-  font-size: 20px;
-  font-family: "Muli", sans-serif;
-  color: #2d3152;
-  font-weight: 300;
-  line-height: 140%;
 }
 
 .table-items li strong {
@@ -548,4 +526,45 @@ a {
 .problem-solution {
   background-color: rgba(125, 147, 165, 0.15);
   padding: 54px 0;
+}
+
+/* Styles for competitive analysis */
+.competitive-analysis {
+  display: flex;
+  justify-content: center;
+  max-width: 910px;
+  margin-bottom: 75px;
+}
+
+.competitive-analysis li {
+  margin: 0 45px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.competitive-analysis li > * {
+  flex: 100%;
+}
+
+.competitor-image {
+  align-self: flex-start;
+}
+
+.competitor-name {
+  align-self: flex-end;
+  text-decoration: underline;
+}
+
+/* Styles for the User Survey */
+.survey-findings li {
+  line-height: 160%;
+}
+
+.survey-findings li strong {
+  font-weight: 700;
+}
+
+.survey-button {
+  margin: 65px 0 145px 0;
 }
