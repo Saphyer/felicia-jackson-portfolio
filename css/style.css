@@ -486,6 +486,20 @@ a {
   font-weight: 700;
 }
 
+.section-text .image-container {
+  max-width: max-content;
+  margin-right: 0;
+}
+
+.section-text .image-container {
+  margin: auto;
+}
+
+.section-text .image-description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
 /* Styles for Roles, Deliverables, Tools */
 .section-tables {
   display: flex;
@@ -577,6 +591,11 @@ a {
   margin: 65px 0 145px 0;
 }
 
+.define {
+  background-color: rgba(125, 147, 165, 0.15);
+  padding: 70px 0;
+}
+
 /* Styles for the Personas */
 .personas {
   max-width: 1160px;
@@ -664,4 +683,45 @@ a {
 .flows-list {
   list-style-type: number;
   margin-left: 20px;
+}
+
+.flows-list li:last-child {
+  text-align: left;
+}
+
+/* Styles for the sitemap */
+.sitemap-image {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/* Styles for the wireframes */
+.wireframe-images {
+  margin-top: 55px;
+}
+
+.sketches-button {
+  margin: 30px auto;
+}
+
+.digital-wireframes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 760px;
+  margin: 58px auto;
+  grid-gap: 5px;
+}
+
+.digital-wireframes li img {
+  width: 150px;
+  display: block;
+}
+
+.digital-wireframes li:last-child {
+  grid-column: 1/-1;
+}
+
+.wireframes-button {
+  margin: auto;
 }
