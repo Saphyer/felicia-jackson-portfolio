@@ -766,3 +766,8 @@ a {
   text-align: center;
   margin-bottom: 30px;
 }
+
+/* Styles for the Typography */
+.image-container.typography-styles {
+  margin: 45px auto;
+}
