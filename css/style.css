@@ -80,6 +80,8 @@ a {
   flex-direction: column;
   padding: 90px;
   background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -453,4 +455,91 @@ a {
 
 .project-hero .hero-button {
   display: block;
+}
+
+/* General styles for sections inside projects */
+.section {
+  margin: 65px 0;
+}
+
+.section-title {
+  padding: 25px 110px;
+  width: 100%;
+}
+
+.section-container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+.section-text-container {
+  margin: 30px auto;
+}
+
+.section-subtitle {
+  color: #2d3152;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 30px;
+}
+
+.section-text {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #2d3152;
+  line-height: 140%;
+  max-width: 910px;
+}
+
+/* Styles for Roles, Deliverables, Tools */
+.section-tables {
+  display: flex;
+}
+
+.section-tables li {
+  margin-right: 65px;
+}
+
+.section-tables li hr {
+  border: none;
+  border-top: 1px solid #2d3152;
+}
+
+.table-title {
+  font-weight: 600;
+  font-family: "Muli", sans-serif;
+  color: #2d3152;
+}
+
+.table-container {
+  display: flex;
+}
+
+.table-items {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.table-items li {
+  font-size: 20px;
+  font-family: "Muli", sans-serif;
+  color: #2d3152;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.table-items li strong {
+  font-weight: 400;
+}
+
+/* Styles to size the columns */
+.one-quarter {
+  flex: 1;
+}
+
+.two-quarters {
+  flex: 2;
 }
