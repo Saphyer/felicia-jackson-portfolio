@@ -633,10 +633,35 @@ a {
 .stories-button {
   margin: auto;
   margin-top: 110px;
+  margin-bottom: 70px;
 }
 
 /* Change the background color of the odd stories */
 .story:nth-child(odd) {
   background-color: #2d3152;
   color: #ffffff;
+}
+
+/* Styles for the User Flows */
+.flows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flows li {
+  flex: 1;
+}
+
+.flows li:last-child {
+  flex: 100%;
+  text-align: center;
+}
+
+.flows li img {
+  max-width: 100%;
+}
+
+.flows-list {
+  list-style-type: number;
+  margin-left: 20px;
 }
