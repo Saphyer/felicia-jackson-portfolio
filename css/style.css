@@ -591,7 +591,8 @@ a {
   margin: 65px 0 145px 0;
 }
 
-.define {
+.define,
+.brand-identity {
   background-color: rgba(125, 147, 165, 0.15);
   padding: 70px 0;
 }
@@ -724,4 +725,44 @@ a {
 
 .wireframes-button {
   margin: auto;
+}
+
+/* Styles for Brand Identity */
+.brand-identity .section-title {
+  padding: 25px 50px;
+}
+
+.image-container.brand-identity-image {
+  margin: 40px auto;
+}
+
+/* Styles for logos */
+.logos {
+  display: flex;
+  margin: 45px 0 75px 0;
+}
+
+.logos li {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logos li .project-text {
+  flex: 100%;
+}
+
+.logos li img {
+  align-self: flex-end;
+}
+
+.color-variations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-variations li {
+  flex: 50%;
+  text-align: center;
+  margin-bottom: 30px;
 }
