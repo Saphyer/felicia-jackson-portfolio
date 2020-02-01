@@ -767,7 +767,30 @@ a {
   margin-bottom: 30px;
 }
 
-/* Styles for the Typography */
+/* Styles for the Typography section */
 .image-container.typography-styles {
   margin: 45px auto;
+}
+
+/* Styles for usability testing */
+.usabily-testing-tasks {
+  margin: 35px 65px;
+}
+
+.usabily-testing-tasks li {
+  margin-bottom: 20px;
+}
+
+.usability-testing-iterations {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.iteration:nth-child(even) {
+  margin-left: 140px;
+}
+
+.iteration ol {
+  display: flex;
 }
