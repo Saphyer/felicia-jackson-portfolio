@@ -543,3 +543,9 @@ a {
 .two-quarters {
   flex: 2;
 }
+
+/* Styles for the Problem-Solution section */
+.problem-solution {
+  background-color: rgba(125, 147, 165, 0.15);
+  padding: 54px 0;
+}
