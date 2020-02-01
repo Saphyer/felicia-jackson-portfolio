@@ -794,3 +794,8 @@ a {
 .iteration ol {
   display: flex;
 }
+
+/* Styles for the conclusion */
+.reflection {
+  margin: 160px 0;
+}
