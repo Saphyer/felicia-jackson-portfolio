@@ -71,7 +71,8 @@ a {
 }
 
 /* Styles for the hero area */
-.hero-area {
+.hero-area,
+.project-hero {
   background-image: url("../img/backgrounds/hero.jpg");
   display: flex;
   align-items: center;
@@ -441,4 +442,15 @@ a {
 
 .contact-cta:hover {
   opacity: 0.8;
+}
+
+/* Styles for the projects section */
+
+.project-hero {
+  background-image: url("../img/backgrounds/steel.jpg");
+  flex-direction: row;
+}
+
+.project-hero .hero-button {
+  display: block;
 }
