@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:300,400|Raleway:400,600|Poppins:300,500&display=swap");
 
 /* General styles for elements throughout the entire site */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
