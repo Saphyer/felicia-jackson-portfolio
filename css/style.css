@@ -189,15 +189,19 @@ a {
   display: flex;
 }
 
-.project-text-container {
+.project-text-background {
   background: #7d93a5;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
   border-bottom-left-radius: 3px;
   border-bottom-left-radius: 3px;
   padding: 80px 55px;
+  flex: 1;
+}
+
+.project-text-container {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
+  height: 100%;
 }
 
 .project-description {
@@ -897,4 +901,32 @@ a {
 /* Styles for the conclusion */
 .reflection {
   margin: 160px 0;
+}
+
+/* Responsive Adjustments - For screens bigger than 1300 */
+@media screen and (min-width: 1300px) {
+  /* Adjustment on projects on homepage */
+  .project {
+    background-size: 90%;
+  }
+
+  /* Adjustments on footer */
+  .footer-cta-title {
+    max-width: 100%;
+  }
+}
+
+/* For ultra wide monitors */
+@media screen and (min-width: 1680px) {
+  /* Projects on homepage */
+  .projects {
+    max-width: 1600px;
+    margin: auto;
+  }
+
+  /* About */
+  .biography {
+    max-width: 1600px;
+    margin: 70px auto;
+  }
 }
