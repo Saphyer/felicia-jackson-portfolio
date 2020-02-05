@@ -33,6 +33,7 @@ a {
   padding: 20px 90px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 /* Styles for the logo container */
@@ -1271,14 +1272,43 @@ a {
   .main-header {
     padding: 13px 22px;
     border-width: 5px;
+    flex-wrap: wrap;
   }
 
   .logo-container img {
     height: 55px;
   }
 
+  .top-navigation {
+    flex: 100%;
+    position: absolute;
+    background-color: rgba(45, 49, 82, 0.9);
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
   .top-navigation-list {
     display: none;
+  }
+
+  .top-navigation-list li {
+    border-bottom: 1px solid #ffffff;
+    margin-right: 0;
+    padding: 15px;
+  }
+
+  .top-navigation-list li:last-child {
+    border-bottom: none;
+  }
+
+  .top-navigation-list li a {
+    font-weight: 500;
+  }
+
+  .visible {
+    display: block;
   }
 
   .logo-text {
