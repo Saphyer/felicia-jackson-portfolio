@@ -1339,6 +1339,26 @@ a {
   .footer-cta-container {
     padding: 20px;
   }
+
+  /* About page */
+  .biography {
+    flex-wrap: wrap;
+  }
+
+  .biography > * {
+    flex: 100%;
+  }
+
+  .biography-image-container {
+    margin-right: 0;
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .biography-text-container {
+    order: 1;
+  }
 }
 
 /* Responsive adjustments - Mobile */
@@ -1346,6 +1366,10 @@ a {
   /* Hero area */
   .hero-title {
     text-align: center;
+  }
+
+  .hero-text {
+    margin-right: 0;
   }
 
   .hero-button {
@@ -1407,6 +1431,12 @@ a {
 
   .social-network-link img {
     width: 16px;
+  }
+
+  /* About */
+  .biography-title-container,
+  .biography-image-container {
+    margin-bottom: 0;
   }
 }
 
