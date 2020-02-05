@@ -1474,11 +1474,31 @@ a {
     flex-direction: column;
   }
 
+  .table-title {
+    max-width: 100% !important;
+  }
+
+  .section-tables li {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+  }
+
   .table-items li {
-    margin-right: 0;
+    max-width: 100%;
+  }
+
+  /* Take aways */
+  .take-away p {
+    max-width: 100%;
+    padding: 15px 30px;
   }
 
   /* General sections */
+  .section-container,
+  .personas {
+    max-width: 100%;
+  }
 
   .section-text-container {
     margin: auto;
@@ -1486,6 +1506,11 @@ a {
 
   .section-subtitle {
     font-size: 20px;
+  }
+
+  /* User Surveys */
+  .survey-findings li {
+    font-size: 18px;
   }
 
   /* Competitive Analysis */
@@ -1531,12 +1556,22 @@ a {
     margin: 20px 0;
   }
 
+  .flows li img {
+    max-width: 95%;
+    margin: auto;
+    display: block;
+  }
+
   .hide {
     display: none !important;
   }
 
   .show {
     display: block !important;
+  }
+
+  .flows-list {
+    margin-left: 50px;
   }
 
   .flows-list li {
@@ -1566,6 +1601,21 @@ a {
     margin-top: 20px;
   }
 
+  .two-column-wireframes {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  /* ctas container */
+  .ctas-container {
+    flex-direction: column;
+  }
+
+  /* High fidelity mockups */
+  .high-fidelity-two-columns {
+    grid-template-columns: 1fr;
+  }
+
   /* Brand identity */
   .logos {
     margin: 30px 0;
@@ -1574,15 +1624,38 @@ a {
 
   .logos li {
     justify-content: center;
+    margin: 30px 0;
   }
 
   .color-variations {
     flex-direction: column;
   }
 
+  .image-container.typography-styles {
+    max-width: 100%;
+  }
+
+  .image-container.typography-styles img {
+    max-width: 100%;
+    width: auto;
+    margin: 50px auto;
+  }
+
+  /* Preference testing */
+  .preference-testing {
+    flex-direction: column;
+    margin: 30px 0;
+  }
+
+  .preference-testing-image {
+    margin-right: 0;
+    order: 1;
+    margin-top: 30px;
+  }
+
   /* Usability Testing */
   .usabily-testing-tasks {
-    margin: 30px 0;
+    margin: 20px 0;
   }
 
   .usability-testing-iterations {
