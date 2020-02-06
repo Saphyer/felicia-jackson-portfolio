@@ -440,6 +440,8 @@ a {
 
 .contact-cta {
   appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
   border: none;
   margin: auto;
   transition: all 0.3s ease-in-out;
