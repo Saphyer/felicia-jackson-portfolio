@@ -439,6 +439,7 @@ a {
 }
 
 .contact-cta {
+  appearance: none;
   border: none;
   margin: auto;
   transition: all 0.3s ease-in-out;
