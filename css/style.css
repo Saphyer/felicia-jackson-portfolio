@@ -762,7 +762,7 @@ a {
 }
 
 .show {
-  display: none;
+  display: none !important;
 }
 
 /* Styles for the wireframes */
