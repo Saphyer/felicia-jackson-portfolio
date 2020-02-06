@@ -416,6 +416,9 @@ a {
 }
 
 .contact-input {
+  appearance: none;
+  -moz-appearance: none;
+  -webskite-appearance: none;
   border: 1px solid #d4d4d4;
   height: 39px;
   font-family: "Muli", sans-serif;
@@ -427,6 +430,9 @@ a {
 }
 
 .contact-textarea {
+  appearance: none;
+  -moz-appearance: none;
+  -webskite-appearance: none;
   border: 1px solid #d4d4d4;
   height: 240px;
   font-family: "Muli", sans-serif;
@@ -441,6 +447,7 @@ a {
 .contact-cta {
   appearance: none;
   -moz-appearance: none;
+  -webskite-appearance: none;
   box-shadow: none;
   border: none;
   margin: auto;
