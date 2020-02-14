@@ -806,7 +806,7 @@ a {
 }
 
 .flows-list {
-  list-style-type: number;
+  list-style-type: decimal;
   margin-left: 20px;
 }
 
