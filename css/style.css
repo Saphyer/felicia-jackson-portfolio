@@ -1744,7 +1744,7 @@ a {
 @media screen and (min-width: 1680px) {
   /* Projects on homepage */
   .projects {
-    max-width: 1600px;
+    max-width: 1680px;
     margin: auto;
   }
 
