@@ -1466,7 +1466,8 @@ a {
   /* Hero area */
   .hero-homepage,
   .project-hero {
-    height: calc(100vh - 86px);
+    min-height: calc(100vh - 86px);
+    height: auto;
   }
 
   .hero-title {
@@ -1480,6 +1481,12 @@ a {
 
   .hero-text {
     margin-right: 0;
+  }
+
+  /* Adjustments on buttons */
+  .button {
+    max-width: 310px;
+    padding: 28px 20px;
   }
 
   .hero-button {
@@ -1525,7 +1532,6 @@ a {
 
   .footer-cta {
     margin-left: 0;
-    max-width: 100%;
     margin-top: 60px;
   }
 
