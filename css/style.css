@@ -330,6 +330,7 @@ a {
 
 .social-networks-list {
   display: flex;
+  align-items: center;
 }
 
 .social-network {
@@ -342,6 +343,15 @@ a {
 
 .social-network:last-child {
   margin-right: 0;
+}
+
+.social-network svg {
+  height: 20px;
+  width: auto;
+}
+
+.social-network-link {
+  display: block;
 }
 
 .social-network:hover path {
