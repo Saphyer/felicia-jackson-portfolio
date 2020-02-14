@@ -935,6 +935,7 @@ a {
 /* Styles for the Typography section */
 .image-container.typography-styles {
   margin: 45px auto;
+  max-width: 640px;
 }
 
 /* Styles for the Preference Testing section */
