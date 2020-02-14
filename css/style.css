@@ -185,15 +185,12 @@ a {
   color: #ffffff;
   font-size: 50px;
   font-weight: 600;
+  padding: 14px 90px;
 }
 
 /* Specific adjustments for the homepage titles */
 .project-title-container {
   padding: 40px 0 80px 0;
-}
-
-.project-title {
-  padding: 14px 100px;
 }
 
 .project-content-container {
@@ -266,11 +263,11 @@ a {
 }
 
 .project.left-aligned .project-content-container {
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .project.left-aligned .project-image-container {
-  margin-right: 100px;
+  margin-right: 90px;
 }
 
 .project.right-aligned {
@@ -283,11 +280,11 @@ a {
 }
 
 .project.right-aligned .project-content-container {
-  margin-right: 100px;
+  margin-right: 90px;
 }
 
 .project.right-aligned .project-image-container {
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 /* Styles for the footer */
@@ -295,7 +292,7 @@ a {
   background-color: #2d3152;
   display: flex;
   align-items: center;
-  padding: 40px 100px;
+  padding: 40px 90px;
 }
 
 .footer-cta-title {
@@ -405,10 +402,6 @@ a {
 /* Specific adjustments for the biography titles */
 .biography-title-container {
   margin-bottom: 30px;
-}
-
-.biography-title {
-  padding: 14px 70px;
 }
 
 /* Styles for the contact section */
@@ -526,7 +519,6 @@ a {
 }
 
 .section-title {
-  padding: 14px 110px;
   width: 100%;
 }
 
