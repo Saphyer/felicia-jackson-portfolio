@@ -301,6 +301,7 @@ a {
   font-size: 26px;
   flex: 1;
   max-width: 760px;
+  line-height: 1.2;
 }
 
 .footer-cta {
