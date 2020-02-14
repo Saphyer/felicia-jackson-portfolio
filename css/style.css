@@ -1479,6 +1479,10 @@ a {
     background-image: url("../img/backgrounds/steel-bg-mobile.jpg");
   }
 
+  .project-hero .hero-text {
+    text-align: left;
+  }
+
   .hero-title {
     width: 100%;
   }
