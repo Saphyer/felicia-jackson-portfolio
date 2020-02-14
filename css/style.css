@@ -334,15 +334,18 @@ a {
 
 .social-network {
   margin-right: 68px;
-  transition: all 0.3s ease-in-out;
 }
 
-.social-network:hover {
-  opacity: 0.8;
+.social-network path {
+  transition: all 0.3s ease-in-out;
 }
 
 .social-network:last-child {
   margin-right: 0;
+}
+
+.social-network:hover path {
+  fill: #cda74e;
 }
 
 /* Styles for the biography */
@@ -1493,7 +1496,7 @@ a {
     margin-right: 15px;
   }
 
-  .social-network-link img {
+  .social-network-link svg {
     width: 16px;
   }
 
