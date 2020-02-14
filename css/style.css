@@ -1465,10 +1465,20 @@ a {
 /* Responsive adjustments - Mobile */
 @media screen and (max-width: 540px) {
   /* Hero area */
+  .hero-area {
+    text-align: center;
+    min-height: 340px;
+  }
+
+  .hero-area em {
+    margin-top: 15px;
+  }
+
   .hero-homepage,
   .project-hero {
     min-height: calc(100vh - 86px);
     height: auto;
+    text-align: left;
   }
 
   .hero-area,
