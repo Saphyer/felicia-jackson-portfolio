@@ -1770,11 +1770,6 @@ a {
   .project {
     background-size: 90%;
   }
-
-  /* Adjustments on footer */
-  .footer-cta-title {
-    max-width: 100%;
-  }
 }
 
 /* Responsive Adjustments - For ultra wide monitors */
