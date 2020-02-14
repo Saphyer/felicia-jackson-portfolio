@@ -574,6 +574,20 @@ a {
   font-weight: 700;
 }
 
+.section-text a {
+  color: #2d3152;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-text a:hover {
+  color: #cda74e;
+}
+
+.section-text a:visited {
+  color: #7d93a5;
+}
+
 .section-text .image-container {
   max-width: max-content;
   margin-right: 0;
