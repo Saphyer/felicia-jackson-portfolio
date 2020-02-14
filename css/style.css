@@ -1152,12 +1152,6 @@ a {
     padding: 30px 0;
   }
 
-  .project-title,
-  .biography-title,
-  .section-title {
-    padding: 25px 50px;
-  }
-
   .title {
     font-size: 32px;
     max-width: max-content;
