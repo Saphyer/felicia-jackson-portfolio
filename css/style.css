@@ -397,6 +397,7 @@ a {
   line-height: 140%;
   font-size: 22px;
   margin-bottom: 24px;
+  max-width: 710px;
 }
 
 .biography-text strong {
