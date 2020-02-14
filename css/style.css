@@ -1493,6 +1493,7 @@ a {
 
   .project {
     background-image: none;
+    margin-bottom: 35px;
   }
 
   .projects-list {
@@ -1505,7 +1506,7 @@ a {
   }
 
   .title-container {
-    padding: 15px 0;
+    padding: 35px 0;
   }
 
   .homepage-project-text {
@@ -1604,6 +1605,11 @@ a {
   /* User Surveys */
   .survey-findings li {
     font-size: 18px;
+  }
+
+  .define,
+  .brand-identity {
+    padding: 0;
   }
 
   /* Competitive Analysis */
