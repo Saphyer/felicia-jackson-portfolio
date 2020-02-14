@@ -1672,7 +1672,7 @@ a {
     margin-top: 30px;
   }
 
-  /* Uer Stories */
+  /* User Stories */
   .story {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -1739,6 +1739,20 @@ a {
   .two-column-wireframes {
     flex-direction: column;
     margin-bottom: 0;
+  }
+
+  .wireframe-container p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .wireframe-container h6 {
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   /* ctas container */
