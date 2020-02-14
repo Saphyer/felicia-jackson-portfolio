@@ -1469,8 +1469,18 @@ a {
 /* Responsive adjustments - Mobile */
 @media screen and (max-width: 540px) {
   /* Hero area */
+  .hero-homepage,
+  .project-hero {
+    height: calc(100vh - 86px);
+  }
+
   .hero-title {
-    text-align: center;
+    width: 100%;
+  }
+
+  .hero-title span {
+    display: block;
+    margin-left: 60px;
   }
 
   .hero-text {
