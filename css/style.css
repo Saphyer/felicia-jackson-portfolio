@@ -92,6 +92,10 @@ a {
 }
 
 /* Styles for the hero area */
+.hero-area {
+  text-align: center;
+}
+
 .hero-area,
 .project-hero {
   background-image: url("../img/backgrounds/hero.jpg");
@@ -109,6 +113,11 @@ a {
 .hero-homepage,
 .project-hero {
   height: calc(100vh - 143px);
+  text-align: left;
+}
+
+.hero-area em {
+  margin-top: 15px;
 }
 
 .hero-title {
@@ -122,9 +131,13 @@ a {
   font-size: 20px;
   line-height: 140%;
   color: #2d3152;
+  max-width: 790px;
+  font-family: "Muli", sans-serif;
+}
+
+.project-hero .hero-text {
   max-width: 400px;
   margin-right: 90px;
-  font-family: "Muli", sans-serif;
 }
 
 .hero-text strong {
@@ -1260,6 +1273,10 @@ a {
   }
 
   /* Adjusments on the hero */
+  .hero-area {
+    min-height: 260px;
+  }
+
   .hero-area,
   .project-hero {
     padding: 40px;
@@ -1460,19 +1477,13 @@ a {
 @media screen and (max-width: 540px) {
   /* Hero area */
   .hero-area {
-    text-align: center;
     min-height: 340px;
-  }
-
-  .hero-area em {
-    margin-top: 15px;
   }
 
   .hero-homepage,
   .project-hero {
     min-height: calc(100vh - 86px);
     height: auto;
-    text-align: left;
   }
 
   .hero-area,
@@ -1482,10 +1493,6 @@ a {
 
   .project-hero {
     background-image: url("../img/backgrounds/steel-bg-mobile.jpg");
-  }
-
-  .project-hero .hero-text {
-    text-align: left;
   }
 
   .hero-title {
