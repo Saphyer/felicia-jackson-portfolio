@@ -258,7 +258,7 @@ a {
 
 /* Specific adjustments based on the project alignment */
 .project.left-aligned {
-  margin-right: 70px;
+  margin-right: 90px;
   background-position: top right;
 }
 
@@ -271,7 +271,7 @@ a {
 }
 
 .project.right-aligned {
-  margin-left: 70px;
+  margin-left: 90px;
   background-position: top left;
 }
 
