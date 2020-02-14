@@ -105,6 +105,12 @@ a {
   background-repeat: no-repeat;
 }
 
+/* Make the homepage and projects hero taller  */
+.hero-homepage,
+.project-hero {
+  height: calc(100vh - 143px);
+}
+
 .hero-title {
   font-family: "Bilbo Swash Caps", cursive;
   font-size: 80px;
@@ -155,13 +161,6 @@ a {
 /* Styles for Projects in the homepage */
 .projects {
   padding: 100px 0;
-}
-
-.projects-title {
-  font-size: 50px;
-  text-align: center;
-  font-family: "Muli", sans-serif;
-  color: #2d3152;
 }
 
 .projects-list {
@@ -1110,10 +1109,6 @@ a {
     padding-bottom: 0;
   }
 
-  .projects-title {
-    margin-bottom: 60px;
-  }
-
   .projects-list {
     max-width: 90%;
     margin: auto;
@@ -1451,12 +1446,6 @@ a {
 
   .hero-button {
     display: none;
-  }
-
-  /* Projects on homepage */
-  .projects-title {
-    margin-bottom: 0;
-    font-size: 30px;
   }
 
   .project {
