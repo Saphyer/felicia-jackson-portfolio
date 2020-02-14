@@ -141,7 +141,7 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   max-width: 360px;
   text-align: center;
-  padding: 32px;
+  padding: 26px 32px;
   width: 100%;
   color: #ffffff;
   font-size: 26px;
@@ -193,7 +193,7 @@ a {
 }
 
 .project-title {
-  padding: 24px 100px;
+  padding: 14px 100px;
 }
 
 .project-content-container {
@@ -408,7 +408,7 @@ a {
 }
 
 .biography-title {
-  padding: 24px 70px;
+  padding: 14px 70px;
 }
 
 /* Styles for the contact section */
@@ -526,7 +526,7 @@ a {
 }
 
 .section-title {
-  padding: 25px 110px;
+  padding: 14px 110px;
   width: 100%;
 }
 
