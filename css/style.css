@@ -1,5 +1,5 @@
 /* This is the font we imported from Google */
-@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:300,400|Raleway:400,600|Poppins:300,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:300,400|Poppins:300,500&display=swap");
 
 /* General styles for elements throughout the entire site */
 ::selection {
@@ -112,7 +112,7 @@ a {
   line-height: 140%;
   color: #2d3152;
   max-width: 790px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .hero-text strong {
@@ -155,7 +155,7 @@ a {
 .projects-title {
   font-size: 50px;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #2d3152;
 }
 
@@ -177,7 +177,7 @@ a {
 .title {
   background-color: #2d3852;
   max-width: 445px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #ffffff;
   font-size: 50px;
   font-weight: 600;
