@@ -1511,6 +1511,8 @@ a {
 
   .homepage-project-text {
     margin-bottom: 75px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .title {
