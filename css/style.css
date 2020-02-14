@@ -149,14 +149,25 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   display: block;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+.button:visited {
+  background-color: #fff;
+  border: 2px solid #b39144;
+  color: #b39144;
+}
+
+.button:active {
+  background-color: #fff;
+  border: 2px solid #2d3152;
+  color: #2d3152;
 }
 
 .hero-button {
   margin-top: 80px;
-}
-
-.hero-button:hover {
-  opacity: 0.8;
 }
 
 /* Styles for Projects in the homepage */
