@@ -1125,6 +1125,10 @@ a {
     margin-bottom: 40px;
   }
 
+  .contact-cta {
+    padding: 0;
+  }
+
   /* Adjustments on the reflection area of the projects */
   .reflection {
     margin: 80px 0;
@@ -1881,6 +1885,10 @@ a {
     max-width: 100%;
     margin-left: 30px;
     margin-right: 30px;
+  }
+
+  .contact-cta {
+    padding: 0;
   }
 }
 
