@@ -1309,6 +1309,7 @@ button:focus {
   /* Adjusments on the hero */
   .hero-area {
     min-height: 260px;
+    height: 620px;
   }
 
   .hero-area,
