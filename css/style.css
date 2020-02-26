@@ -1737,6 +1737,7 @@ a {
   .story {
     margin-left: 0 !important;
     margin-right: 0 !important;
+    padding: 12px 35px;
   }
 
   /* User flows */
