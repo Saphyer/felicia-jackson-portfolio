@@ -266,10 +266,13 @@ a {
   align-self: flex-end;
   width: 100%;
   transition: all 0.3s ease-in-out;
+  background-color: #7d93a5;
 }
 
-.project-button:hover {
-  opacity: 0.8;
+.project-button:hover,
+.project-button:visited {
+  background-color: white;
+  color: #7d93a5;
 }
 
 .project-image-container {
