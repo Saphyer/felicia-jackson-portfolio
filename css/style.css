@@ -81,15 +81,15 @@ a {
   color: #ffffff;
   font-size: 20px;
   font-family: "Muli", sans-serif;
+  font-weight: 600;
 }
 
 .top-navigation-link:hover {
   color: #cda74e;
 }
 
-.top-navigation-link:active,
 .top-navigation-link.active {
-  color: #d2d6dd;
+  color: #bac8ce;
 }
 
 /* Styles for the hero area */
