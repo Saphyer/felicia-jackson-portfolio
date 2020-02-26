@@ -1309,12 +1309,30 @@ button:focus {
   /* Adjusments on the hero */
   .hero-area {
     min-height: 260px;
-    height: 620px;
   }
 
   .hero-area,
   .project-hero {
-    padding: 40px;
+    padding: 40px 68px;
+  }
+
+  .hero-homepage,
+  .project-hero {
+    height: 620px;
+  }
+
+  .project-hero .hero-text {
+    margin-right: 0;
+  }
+
+  .project-hero .text-container {
+    max-width: none;
+    flex: 1;
+  }
+
+  .project-hero .image-container {
+    margin-left: 30px;
+    flex: 1;
   }
 
   .hero-title {
@@ -1328,6 +1346,11 @@ button:focus {
 
   .hero-button {
     margin-top: 30px;
+  }
+
+  /* Adjustments on projects */
+  .project-button {
+    margin-top: 75px;
   }
 
   /* Adjustments on Roles, Deliverables and Tools section */
@@ -1344,9 +1367,13 @@ button:focus {
   /* Adjustments on projects page */
   .section-container,
   .personas {
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 68px;
+    margin-right: 68px;
+  }
+
+  .section-tables li hr {
+    max-width: 240px;
+    margin-left: 0;
   }
 
   .take-away {
@@ -1585,7 +1612,6 @@ button:focus {
   }
 
   .homepage-project-text {
-    margin-bottom: 75px;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
@@ -1662,11 +1688,6 @@ button:focus {
     margin-left: 30px;
   }
 
-  .section-tables li hr {
-    max-width: 240px;
-    margin-left: 0;
-  }
-
   .table-items li {
     max-width: 100%;
     margin-left: 0;
@@ -1683,6 +1704,8 @@ button:focus {
   .section-container,
   .personas {
     max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .section-text-container {
