@@ -1,5 +1,5 @@
 /* This is the font we imported from Google */
-@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:300,400,700|Poppins:300,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Muli:300,400,500,700|Poppins:300,500&display=swap");
 
 /* General styles for elements throughout the entire site */
 ::selection {
@@ -211,7 +211,7 @@ a {
   font-family: "Muli", sans-serif;
   color: #ffffff;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 14px 0;
   text-align: center;
 }
