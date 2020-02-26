@@ -1512,7 +1512,7 @@ a {
 
   .hero-homepage,
   .project-hero {
-    min-height: calc(100vh - 86px);
+    min-height: 520px;
     height: auto;
   }
 
@@ -1576,7 +1576,7 @@ a {
     max-width: 100%;
     width: 100%;
     text-align: center;
-    padding: 4px 15px;
+    padding: 4px 15px 12px 15px;
   }
 
   /* Footer styles */
