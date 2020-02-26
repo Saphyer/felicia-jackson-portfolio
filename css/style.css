@@ -170,16 +170,16 @@ a {
 }
 
 .button:hover,
-.button:visited {
-  background-color: #fff;
-  border: 2px solid #b39144;
-  color: #b39144;
-}
-
 .button:active {
   background-color: #fff;
   border: 2px solid #2d3152;
   color: #2d3152;
+}
+
+.button:visited {
+  background-color: #fff;
+  border: 2px solid #cda74e;
+  color: #cda74e;
 }
 
 .hero-button {
