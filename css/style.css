@@ -333,11 +333,14 @@ a {
 }
 
 .footer-cta {
-  margin-left: 150px;
+  margin-left: auto;
 }
 
-.footer-cta:hover {
-  opacity: 0.8;
+.footer-cta:hover,
+.footer-cta:visited {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
 }
 
 .footer-copyright-container {
