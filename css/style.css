@@ -1412,7 +1412,7 @@ a {
 @media screen and (max-width: 670px) {
   /* Adjustments on top nav */
   .main-header {
-    padding: 13px 30px;
+    padding: 13px 35px;
     border-width: 5px;
     flex-wrap: wrap;
   }
@@ -1474,12 +1474,12 @@ a {
 
   .project-text-background {
     order: 1;
-    padding: 30px;
+    padding: 35px;
   }
 
   /* Footer */
   .footer-cta-container {
-    padding: 30px;
+    padding: 35px;
   }
 
   /* About page */
@@ -1560,6 +1560,7 @@ a {
   .project-button {
     font-size: 20px;
     padding: 30px;
+    margin-bottom: 60px;
   }
 
   .title-container {
