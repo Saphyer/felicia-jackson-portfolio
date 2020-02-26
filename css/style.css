@@ -1541,8 +1541,13 @@ a {
     margin-left: 60px;
   }
 
-  .hero-text {
+  .hero-text,
+  .project-hero .hero-text {
     margin-right: 0;
+  }
+
+  .project-hero .hero-text {
+    text-align: left;
   }
 
   /* Adjustments on buttons */
