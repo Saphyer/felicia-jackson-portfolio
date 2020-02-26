@@ -295,7 +295,7 @@ a {
 }
 
 .project.left-aligned .project-image-container {
-  margin-right: 90px;
+  margin-right: 180px;
 }
 
 .project.right-aligned {
@@ -1849,10 +1849,19 @@ a {
 }
 
 /* Responsive Adjustments - For screens bigger than 1300 */
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1480px) {
   /* Adjustment on projects on homepage */
   .project {
     background-size: 90%;
+    max-width: 80%;
+  }
+
+  .project.right-aligned {
+    margin-left: auto;
+  }
+
+  .project.right-aligned .project-content-container {
+    margin-right: 180px;
   }
 }
 
