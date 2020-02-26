@@ -597,17 +597,17 @@ a {
   font-weight: 700;
 }
 
-.section-text a {
+.section-text a.link {
   color: #2d3152;
   text-decoration: underline;
   transition: all 0.3s ease-in-out;
 }
 
-.section-text a:hover {
+.section-text a.link:hover {
   color: #cda74e;
 }
 
-.section-text a:visited {
+.section-text a.link:visited {
   color: #7d93a5;
 }
 
