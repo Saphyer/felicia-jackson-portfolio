@@ -498,6 +498,10 @@ a {
   border: none;
   margin: auto;
   transition: all 0.3s ease-in-out;
+  width: 200px;
+  height: 58px;
+  padding: 0;
+  font-size: 20px;
 }
 
 .contact-cta:hover {
