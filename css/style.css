@@ -166,6 +166,7 @@ a {
   border: 2px solid transparent;
   transition: all 0.3s ease-in-out;
   text-decoration: none !important;
+  border: 2px solid #cda74e;
 }
 
 .button:hover,
@@ -337,11 +338,13 @@ a {
 
 .footer-cta {
   margin-left: auto;
+  background-color: #cda74e;
+  border: 2px solid #cda74e;
 }
 
 .footer-cta:hover,
 .footer-cta:visited {
-  background: transparent;
+  background-color: #2d3152;
   color: white;
   border: 2px solid white;
 }
@@ -1589,6 +1592,7 @@ a {
   .footer-cta {
     margin-left: 0;
     margin-top: 60px;
+    max-width: none;
   }
 
   .footer-cta-title {
