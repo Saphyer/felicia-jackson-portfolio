@@ -1473,7 +1473,7 @@ button:focus {
 }
 
 /* Responsive Adjustments - For screens smaller than 670 - small desktop sizes */
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
   /* Adjustments on top nav */
   .main-header {
     padding: 13px 35px;
@@ -1534,6 +1534,10 @@ button:focus {
   }
 
   /* Projects */
+  .projects-list {
+    max-width: 100%;
+  }
+
   .project-content-container {
     flex-wrap: wrap;
   }
@@ -1628,6 +1632,11 @@ button:focus {
   .button {
     max-width: 310px;
     padding: 28px 20px;
+    font-size: 20px;
+  }
+
+  .project-button {
+    font-size: 20px;
   }
 
   .hero-button {
