@@ -218,8 +218,7 @@ button:focus {
   color: #ffffff;
   font-size: 50px;
   font-weight: 500;
-  padding: 14px 0;
-  text-align: center;
+  padding: 14px 90px;
 }
 
 /* Specific adjustments for the homepage titles */
@@ -1189,6 +1188,7 @@ button:focus {
   .title {
     font-size: 32px;
     width: 320px;
+    padding: 14px 40px;
   }
 
   .footer-copyright-container {
@@ -1289,11 +1289,6 @@ button:focus {
 
 /* Responsive Adjustments - For screens smaller than 800 - iPad Portrait */
 @media screen and (max-width: 800px) {
-  /* Header adjustments */
-  .main-header {
-    padding: 20px;
-  }
-
   .logo-text {
     margin-left: 15px;
     font-size: 16px;
@@ -1540,6 +1535,10 @@ button:focus {
 
   .biography-text-container {
     order: 1;
+  }
+
+  .title {
+    padding: 14px 35px;
   }
 }
 
