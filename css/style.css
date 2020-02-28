@@ -1765,6 +1765,8 @@ button:focus {
   .take-away p {
     max-width: 100%;
     padding: 15px 30px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /* General sections */
