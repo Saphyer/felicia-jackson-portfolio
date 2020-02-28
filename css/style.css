@@ -213,7 +213,8 @@ button:focus {
 
 .title {
   background-color: #2d3852;
-  width: 445px;
+  width: 440px;
+  box-sizing: border-box;
   font-family: "Muli", sans-serif;
   color: #ffffff;
   font-size: 50px;
@@ -577,6 +578,10 @@ button:focus {
 .section-text-container {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 40px;
 }
 
 .section-subtitle {
