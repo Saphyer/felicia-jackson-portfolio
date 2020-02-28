@@ -224,6 +224,7 @@ button:focus {
   font-size: 50px;
   font-weight: 500;
   padding: 14px 90px;
+  padding-right: 0;
 }
 
 /* Specific adjustments for the homepage titles */
@@ -1149,7 +1150,16 @@ button:focus {
     padding: 0;
   }
 
-  /* Adjustments on the reflection area of the projects */
+  /* Adjustments to projects */
+  .table-container {
+    position: relative;
+    top: -8px;
+  }
+
+  .project-text {
+    font-size: 19px;
+  }
+
   .reflection {
     margin: 80px 0;
   }
