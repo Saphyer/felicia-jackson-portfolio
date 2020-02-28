@@ -625,12 +625,12 @@ button:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.section-text a.link:hover {
-  color: #cda74e;
-}
-
 .section-text a.link:visited {
   color: #7d93a5;
+}
+
+.section-text a.link:hover {
+  color: #cda74e;
 }
 
 .section-text .image-container {
