@@ -141,6 +141,10 @@ button:focus {
   font-family: "Muli", sans-serif;
 }
 
+.project-hero {
+  padding-left: 145px;
+}
+
 .project-hero .hero-text {
   max-width: 400px;
   margin-right: 90px;
@@ -1247,7 +1251,11 @@ button:focus {
   }
 
   /* Adjustments for projects */
-  .hero-text {
+  .project-hero {
+    padding-left: 95px;
+  }
+
+  .project-hero .hero-text {
     margin-right: 20px;
   }
 
@@ -1328,9 +1336,9 @@ button:focus {
     min-height: 260px;
   }
 
-  .hero-area,
   .project-hero {
-    padding: 40px 68px;
+    padding: 40px;
+    padding-left: 88px;
   }
 
   .hero-homepage,
@@ -1384,8 +1392,8 @@ button:focus {
   /* Adjustments on projects page */
   .section-container,
   .personas {
-    margin-left: 68px;
-    margin-right: 68px;
+    margin-left: 88px;
+    margin-right: 88px;
   }
 
   .section-tables li hr {
@@ -1519,6 +1527,12 @@ button:focus {
     display: block;
   }
 
+  /* hero area */
+  .hero-homepage,
+  .project-hero {
+    padding: 35px;
+  }
+
   /* Projects */
   .project-content-container {
     flex-wrap: wrap;
@@ -1560,6 +1574,13 @@ button:focus {
 
   .title {
     padding: 14px 35px;
+  }
+
+  /* Projects */
+  .section-container,
+  .personas {
+    margin-left: 35px;
+    margin-right: 35px;
   }
 }
 
