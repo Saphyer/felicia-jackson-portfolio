@@ -369,6 +369,8 @@ button:focus {
 .social-networks-list {
   display: flex;
   align-items: center;
+  justify-content: center;
+  min-width: 370px;
 }
 
 .social-network {
@@ -1073,6 +1075,11 @@ button:focus {
     margin-left: 40px;
   }
 
+  .footer-copyright-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   /* Adjustments on sections for project */
   .section-container,
   .personas {
@@ -1136,6 +1143,15 @@ button:focus {
   /* Adjustments on the reflection area of the projects */
   .reflection {
     margin: 80px 0;
+  }
+
+  /* Footer */
+  .social-networks-list {
+    min-width: 260px;
+  }
+
+  .social-network {
+    margin-right: 50px;
   }
 }
 
@@ -1641,6 +1657,10 @@ button:focus {
 
   .footer-copyright-text span {
     display: none;
+  }
+
+  .social-networks-list {
+    min-width: auto;
   }
 
   .social-network {
