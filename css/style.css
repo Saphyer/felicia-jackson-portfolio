@@ -1965,7 +1965,7 @@ button:focus {
 }
 
 /* Responsive Adjustments - For ultra wide monitors */
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1700px) {
   /* Projects on homepage */
   .projects {
     max-width: 1680px;
