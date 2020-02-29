@@ -1118,7 +1118,15 @@ button:focus {
 
 /* Responsive Adjustments - For screens smaller than 1060 - iPad landscape */
 @media screen and (max-width: 1150px) {
-  /* Adjustments on project page */
+  /* Adjustments on projects on homepage */
+  .project.left-aligned .project-image-container {
+    margin-right: 30px;
+  }
+
+  .project.right-aligned .project-image-container {
+    margin-left: 30px;
+  }
+
   .homepage-project-text {
     font-size: 16px;
     margin-bottom: 20px;
