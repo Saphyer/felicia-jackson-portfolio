@@ -1628,6 +1628,14 @@ button:focus {
     text-align: center;
     padding: 4px 15px 12px 15px;
   }
+
+  /* button styles */
+  .project-button {
+    max-width: 260px;
+    padding: 18px 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Responsive adjustments - Mobile portrait view */
@@ -1671,8 +1679,9 @@ button:focus {
   }
 
   /* Adjustments on buttons */
-  .button {
-    max-width: 310px;
+  .button,
+  .project-button {
+    max-width: 100%;
     padding: 28px 20px;
     font-size: 20px;
   }
