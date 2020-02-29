@@ -2012,6 +2012,11 @@ button:focus {
   .project.right-aligned .project-content-container {
     margin-right: 180px;
   }
+
+  /* Projects adjustments */
+  .image-container {
+    margin-left: 180px;
+  }
 }
 
 /* Responsive Adjustments - For ultra wide monitors */
