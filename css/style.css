@@ -1162,6 +1162,10 @@ button:focus {
   }
 
   /* Adjustments to projects */
+  .project-hero .hero-text {
+    margin-right: 20px;
+  }
+
   .table-container {
     position: relative;
     top: -8px;
@@ -1278,10 +1282,6 @@ button:focus {
   /* Adjustments for projects */
   .project-hero {
     padding-left: 95px;
-  }
-
-  .project-hero .hero-text {
-    margin-right: 20px;
   }
 
   .section {
