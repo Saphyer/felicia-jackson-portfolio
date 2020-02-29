@@ -1537,67 +1537,6 @@ button:focus {
   }
 
   /* Projects */
-  .projects-list {
-    max-width: 100%;
-  }
-
-  .project-content-container {
-    flex-wrap: wrap;
-  }
-
-  .project-content-container > * {
-    flex: 100%;
-  }
-
-  .project-text-background {
-    order: 1;
-    padding: 35px;
-  }
-
-  /* Footer */
-  .footer-cta-container {
-    padding: 35px;
-  }
-
-  .footer-copyright-text {
-    font-size: 13px;
-  }
-
-  /* About page */
-  .biography {
-    flex-wrap: wrap;
-  }
-
-  .biography > * {
-    flex: 100%;
-  }
-
-  .biography-image-container {
-    margin-right: 0;
-    max-width: 95%;
-    margin: auto;
-    margin-bottom: 30px;
-  }
-
-  .biography-text-container {
-    order: 1;
-  }
-
-  .title {
-    padding: 14px 35px;
-  }
-
-  /* Projects */
-  .section-container,
-  .personas {
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-}
-
-/* Responsive adjustments - Mobile landscape view */
-@media screen and (max-width: 736px) {
-  /* Project styles */
   .project {
     background-image: none;
     margin-bottom: 35px;
@@ -1629,12 +1568,59 @@ button:focus {
     padding: 4px 15px 12px 15px;
   }
 
+  .project-content-container {
+    flex-wrap: wrap;
+  }
+
+  .project-content-container > * {
+    flex: 100%;
+  }
+
+  .project-text-background {
+    order: 1;
+    padding: 35px;
+  }
+
   /* button styles */
   .project-button {
     max-width: 260px;
     padding: 18px 30px;
-    margin-left: auto;
-    margin-right: auto;
+  }
+
+  /* Footer */
+  .footer-cta-container {
+    padding: 35px;
+  }
+
+  .footer-copyright-text {
+    font-size: 13px;
+  }
+
+  /* About page */
+  .biography {
+    flex-wrap: wrap;
+  }
+
+  .biography > * {
+    flex: 100%;
+  }
+
+  .biography-image-container {
+    margin-right: 0;
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .biography-text-container {
+    order: 1;
+  }
+
+  /* Projects */
+  .section-container,
+  .personas {
+    margin-left: 35px;
+    margin-right: 35px;
   }
 }
 
