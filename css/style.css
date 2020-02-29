@@ -1595,7 +1595,42 @@ button:focus {
   }
 }
 
-/* Responsive adjustments - Mobile */
+/* Responsive adjustments - Mobile landscape view */
+@media screen and (max-width: 736px) {
+  /* Project styles */
+  .project {
+    background-image: none;
+    margin-bottom: 35px;
+  }
+
+  .projects-list {
+    max-width: 100%;
+  }
+
+  .project-button {
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 60px;
+  }
+
+  .title-container {
+    padding: 35px 0;
+  }
+
+  .homepage-project-text {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .title {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 4px 15px 12px 15px;
+  }
+}
+
+/* Responsive adjustments - Mobile portrait view */
 @media screen and (max-width: 540px) {
   /* Hero area */
   .hero-area {
@@ -1648,37 +1683,6 @@ button:focus {
 
   .hero-button {
     display: none;
-  }
-
-  .project {
-    background-image: none;
-    margin-bottom: 35px;
-  }
-
-  .projects-list {
-    max-width: 100%;
-  }
-
-  .project-button {
-    font-size: 20px;
-    padding: 30px;
-    margin-bottom: 60px;
-  }
-
-  .title-container {
-    padding: 35px 0;
-  }
-
-  .homepage-project-text {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .title {
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 4px 15px 12px 15px;
   }
 
   /* Footer styles */
