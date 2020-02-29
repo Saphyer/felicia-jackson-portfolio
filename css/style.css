@@ -1328,7 +1328,7 @@ button:focus {
   }
 }
 
-/* Responsive Adjustments - For screens smaller than 800 - iPad Portrait */
+/* Responsive Adjustments - For screens smaller than 800 - small monitors */
 @media screen and (max-width: 800px) {
   .logo-text {
     margin-left: 15px;
@@ -1475,7 +1475,7 @@ button:focus {
   }
 }
 
-/* Responsive Adjustments - For screens smaller than 670 - small desktop sizes */
+/* Responsive Adjustments - For screens smaller than 768 - iPad portrait */
 @media screen and (max-width: 768px) {
   /* Adjustments on top nav */
   .main-header {
@@ -1557,6 +1557,10 @@ button:focus {
   /* Footer */
   .footer-cta-container {
     padding: 35px;
+  }
+
+  .footer-copyright-text {
+    font-size: 13px;
   }
 
   /* About page */
