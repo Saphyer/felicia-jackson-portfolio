@@ -1108,7 +1108,7 @@ button:focus {
 }
 
 /* Responsive Adjustments - For screens smaller than 1060 - iPad landscape */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1150px) {
   /* Adjustments on project page */
   .homepage-project-text {
     font-size: 16px;
