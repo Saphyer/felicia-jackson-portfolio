@@ -738,6 +738,16 @@ button:focus {
 .competitor-name {
   align-self: flex-end;
   text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+  color: #2d3152;
+}
+
+.competitor-name:visited {
+  color: #7d93a5;
+}
+
+.competitor-name:hover {
+  color: #cda74e;
 }
 
 .take-away {
