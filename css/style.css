@@ -795,6 +795,10 @@ button:focus {
   margin-bottom: 60px;
 }
 
+.persona .image-container {
+  margin-left: 0;
+}
+
 .image-container {
   max-width: 245px;
   margin-right: 20px;
