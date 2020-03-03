@@ -1600,7 +1600,8 @@ button:focus {
   }
 
   /* button styles */
-  .project-button {
+  .project-button,
+  .button {
     max-width: 310px;
     width: 100%;
     padding: 26px 20px;
@@ -1615,7 +1616,11 @@ button:focus {
   }
 
   .footer-copyright-text {
-    font-size: 13px;
+    font-size: 10px;
+  }
+
+  .footer-cta-title {
+    margin-right: 20px;
   }
 
   /* About page */
@@ -1687,17 +1692,6 @@ button:focus {
   }
 
   /* Adjustments on buttons */
-  .button,
-  .project-button {
-    max-width: 100%;
-    padding: 28px 20px;
-    font-size: 20px;
-  }
-
-  .project-button {
-    font-size: 20px;
-  }
-
   .hero-button {
     display: none;
   }
@@ -1712,10 +1706,6 @@ button:focus {
     margin-left: 0;
     margin-top: 60px;
     max-width: none;
-  }
-
-  .footer-cta-title {
-    max-width: 90%;
   }
 
   .footer-copyright-text span {
@@ -1754,6 +1744,7 @@ button:focus {
 
   .project-hero .image-container {
     margin-top: 30px;
+    margin-left: 0;
   }
 
   /* Roles, deliverables and tools */
