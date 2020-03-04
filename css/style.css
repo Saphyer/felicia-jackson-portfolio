@@ -1653,6 +1653,11 @@ button:focus {
     margin-left: 35px;
     margin-right: 35px;
   }
+
+  /* Contact */
+  .contact-cta {
+    padding: 0;
+  }
 }
 
 /* Responsive adjustments - Mobile portrait view */
