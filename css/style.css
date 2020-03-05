@@ -1348,6 +1348,11 @@ button:focus {
     flex: 2;
     max-width: 100%;
   }
+
+  /* Footer */
+  .footer-copyright-text {
+    font-size: 13px;
+  }
 }
 
 /* Responsive Adjustments - For screens smaller than 800 - small monitors */
