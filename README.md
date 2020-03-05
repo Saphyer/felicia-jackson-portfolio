@@ -1,1 +1,3 @@
-# https-share.getcloudapp.com-8LuZz20G
+# Felicia Jackson Portfolio
+
+![Screenshot of the desktop homepage](img/screenshot.png)
